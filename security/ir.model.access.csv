@@ -1,2 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_energy_sale_order_energy_sale_order,energy_sale_order.energy_sale_order,model_energy_sale_order_energy_sale_order,base.group_user,1,1,1,1
+access_energy_sale_order_user,EnergySaleOrder,model_energy_sale_order,energy_sale_group_user,1,1,1,0
+access_energy_sale_order_manager,EnergySaleOrder,model_energy_sale_order,energy_sale_group_manager,1,1,1,1
+access_energy_sale_order_line_user,EnergySaleOrderLine,model_energy_sale_order_line,energy_sale_group_user,1,1,1,0
+access_energy_sale_order_line_manager,EnergySaleOrderLine,model_energy_sale_order_line,energy_sale_group_manager,1,1,1,1

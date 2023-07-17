@@ -24,8 +24,8 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
         'security/res_groups.xml',
+        'security/ir.model.access.csv',
         'data/ir_energy_sale_sequence.xml',
         'views/energy_sale_order.xml',
         # 'views/templates.xml',

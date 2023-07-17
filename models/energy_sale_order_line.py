@@ -8,8 +8,8 @@ class EnergySaleOrder(models.Model):
     _description = 'energy.sale.order.line'
 
     energy_sale_id = fields.Many2one('energy.sale.order')
-    address = fields.Char(string="Address")
-    location = fields.Char(string="Location")
-    quantity = fields.Float(string="Quantity")
+    address = fields.Char(string="Address", required=True)
+    location = fields.Char(string="Location", required=True)
+    quantity = fields.Float(string="Quantity", required=True)
 
 
